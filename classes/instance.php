@@ -16,7 +16,6 @@ class Instance {
 
 		$m = 'create_'.strtolower($id);
 		if (method_exists(__CLASS__, $m)) {
-			$test = call_user_func([__CLASS__, $m]);
 			return call_user_func([__CLASS__, $m]);
 		}
 

@@ -1,6 +1,10 @@
 <?php
 
-// Config management class. Loads an array of config variables and allows access via a get function
+/*
+*	Config management class
+*
+*	Loads an array of config variables and allows access via a get function
+*/
 class Config {
 
 	private static $config = null;
@@ -10,7 +14,9 @@ class Config {
 		self::$config = json_decode($json);
 	}
 
-	// get config strings from array in the format key1.key2.key3 etc
+	/* 
+	* 	Retrieve config strings from config array in the format key1.key2.key3 etc
+	*/
 	public static function get($identifier) {
 		$parts = explode('.', $identifier);
 		if (count($parts) > 1) {
