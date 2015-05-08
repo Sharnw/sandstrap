@@ -8,9 +8,9 @@ As a fan of lightweight frameworks I wanted something that I could plug into an 
 
 Each time I've built this kind of solution I've refined the classes I use a little more. This is my first attempt at combining them into a single concept.
 
-Projects I've utilised:
+# Projects I've utilised:
 
-Props to radiosilence for Ham router. It's lightweight and fits into what I want to do perfectly. - https://github.com/radiosilence/Ham
+Props to radiosilence for Ham router. It's lightweight and fits into what I want to do perfectly - https://github.com/radiosilence/Ham
 
 I've also thrown in Pure CSS - https://github.com/yahoo/pure
 
